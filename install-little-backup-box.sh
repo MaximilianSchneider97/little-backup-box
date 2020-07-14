@@ -52,7 +52,7 @@ sudo service minidlna start
 
 # Clone and configure Little Backup Box
 cd
-git clone https://github.com/dmpop/little-backup-box.git
+git clone https://github.com/MaximilianSchneider97/little-backup-box.git
 ln -s /media/storage /home/$USER/little-backup-box/scripts
 echo -e '\nBAK_DIR="/home/'$USER'/BACKUP" # Home directory path' >> little-backup-box/scripts/config.cfg
 mkdir -p /home/$USER/BACKUP
